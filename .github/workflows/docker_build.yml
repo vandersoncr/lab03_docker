@@ -28,7 +28,7 @@ jobs:
         with:
           context: ./
           push: true
-          tags: vandersoncr/lab03_docker:latest
+          tags: vandersoncr/lab03_docker:latest .
 
   deploy:
     runs-on: ubuntu-latest
