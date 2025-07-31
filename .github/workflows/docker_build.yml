@@ -28,8 +28,7 @@ jobs:
         with:
           context: ./
           push: true
-          tags: vandersoncr/webacademy:latest
-          # dockerfile: ./Dockerfile  # Se necessário, descomente e especifique o caminho
+          tags: vandersoncr/lab03_docker:latest
 
   deploy:
     runs-on: ubuntu-latest
