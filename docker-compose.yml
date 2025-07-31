@@ -5,6 +5,6 @@ services:
     container_name: webacademydemo
     restart: always
     ports:
-      - "80:3000"
+      - "80:3099"
     environment:
       NODE_ENV: production
